@@ -1,0 +1,15 @@
+PS C:\Users\us-br\TEST\git_challenge> git commit -m "hello_world.txtを追加" 
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\us-br\TEST\git_challenge> git status                            
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\us-br\TEST\git_challenge> git log --oneline
+e7e3442 (HEAD -> main) hello_world.txtを追加
+PS C:\Users\us-br\TEST\git_challenge> echo "こんにちは、世界" >> hello_world.txt
+PS C:\Users\us-br\TEST\git_challenge> git add \Users\us-br\TEST\git_challenge
+PS C:\Users\us-br\TEST\git_challenge> git commit -m "日本語訳追加"         
+[main 506983b] 日本語訳追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\us-br\TEST\git_challenge> git log --oneline
+506983b (HEAD -> main) 日本語訳追加
+e7e3442 hello_world.txtを追加
